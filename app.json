@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "HospitalityApp",
+    "sdkVersion": "25.0.0",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": ""
+  }
+}
