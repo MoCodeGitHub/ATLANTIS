@@ -9,7 +9,13 @@ import Details from '../screens/Details';
 
 
 export const FeedNavigator = StackNavigator({
-    Resorts: {
+  SignUp: {
+  screen: SignUp,
+  navigationOptions: {
+    title: "Sign Up"
+  }
+},
+  Resorts: {
         screen: Resorts,
         navigationOptions: {
         title: 'Resorts',
