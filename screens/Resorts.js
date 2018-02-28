@@ -55,7 +55,8 @@ export default class Resorts extends React.Component {
             statusBarProps={{ barStyle: 'light-content' }}
             leftComponent={{ icon: 'menu', color: '#fff' }}
             centerComponent={{ text: 'Atlantis Tours', style: { color: '#fff' } }}
-            rightComponent={{ icon: 'home', color: '#fff' }}
+            rightComponent={{ icon: 'home', color: '#fff',
+             onPress: () => navigate('Home'),}}
             innerContainerStyles={{ justifyContent: 'space-between',}}
           />
         </View>
