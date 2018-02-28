@@ -13,7 +13,7 @@ export default class App extends React.Component {
               source= {{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Atlantis_Resort_framed_by_flowers.jpg/1280px-Atlantis_Resort_framed_by_flowers.jpg' }}
               style={styles.image}>
               <View style={styles.header}>
-                <Text style={{color: 'white', fontSize: 50, fontWeight:'700'}}>Atlantis Tours</Text>
+                <Text style={{color: 'white', fontSize: 50, fontWeight:'700'}}>ATLANTIS</Text>
               </View>
               <View style={styles.social}>
                 <SocialIcon
@@ -25,16 +25,20 @@ export default class App extends React.Component {
                 />
                 <SocialIcon
                   style={styles.socialIcon}
-                  title='Sign in Twitter Message'
+                  title='Sign In With Twitter'
                   button
                   type='twitter'
                   onPress={() => navigate('Resorts') }
                 />
-              </View>
-              <View style={styles.footer}>
-                <Text style={{color: 'white'}}>Copyright Atlantis - 2018</Text>
-              </View>
-            </ImageBackground>
+                <SocialIcon
+                  style={styles.socialIcon}
+                  title='Sign In With Instagram'
+                  button
+                  type='instagram'
+                  onPress={() => navigate('Resorts') }
+                />
+                </View>
+              </ImageBackground>
         </View>
 
     )
@@ -50,18 +54,15 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   header:{
-    flex: 8,
+    flex:6,
     alignContent: 'center',
     justifyContent: 'center'
   },
   social:{
     flex: 3
   },
-  footer:{
-    flex: 1,
-  },
   socialIcon:{
-    padding: 30,
+    padding: 40,
   },
   image:{
     flex: 1,
