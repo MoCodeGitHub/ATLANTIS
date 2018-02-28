@@ -2,6 +2,8 @@ import React from 'react';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 import Home from '../screens/Home';
+import Resorts from '../screens/Resorts';
+import Details from '../screens/Details';
 
 
 
