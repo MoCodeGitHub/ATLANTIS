@@ -2,10 +2,11 @@
 2. npm install
 3. yarn/npm start (in Expo)
 
-![moatlantis](https://user-images.githubusercontent.com/34093736/36796461-eb52c8ac-1ca5-11e8-8592-4823cdcd1fe1.jpeg)
+![mo_atlantis1](https://user-images.githubusercontent.com/34093736/36797022-4181fdf0-1ca7-11e8-8a33-d78c2ca3a44c.jpg)
 
 
-![moatlantis2](https://user-images.githubusercontent.com/34093736/36796483-f274dd82-1ca5-11e8-8a49-de6cc2178898.jpeg)
+![mo_atlantis22](https://user-images.githubusercontent.com/34093736/36797072-619814bc-1ca7-11e8-9e92-0a5a08f5b6ab.jpg)
+
 
 
 
