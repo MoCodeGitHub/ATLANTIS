@@ -4,17 +4,9 @@ import { Icon } from 'react-native-elements';
 import Home from '../screens/Home';
 import Resorts from '../screens/Resorts';
 import Details from '../screens/Details';
-import SignUp from '../screens/SignUp';
-
-
+import SignUp from '../component/SignUp';
 
 export const FeedNavigator = StackNavigator({
-  SignUp: {
-  screen: SignUp,
-  navigationOptions: {
-    title: "Sign Up"
-  }
-},
   Resorts: {
         screen: Resorts,
         navigationOptions: {
