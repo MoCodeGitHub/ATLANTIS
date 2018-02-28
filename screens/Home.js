@@ -13,7 +13,7 @@ export default class App extends React.Component {
               source= {{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Atlantis_Resort_framed_by_flowers.jpg/1280px-Atlantis_Resort_framed_by_flowers.jpg' }}
               style={styles.image}>
               <View style={styles.header}>
-                <Text style={{color: 'white', fontSize: 50, fontWeight:'700'}}>ATLANTIS</Text>
+                <Text style={{color: 'white', fontSize: 50, fontWeight:'500'}}>Atlantis</Text>
               </View>
               <View style={styles.social}>
                 <SocialIcon
