@@ -10,10 +10,10 @@ export default class App extends React.Component {
 
         <View style={styles.container}>
             <ImageBackground
-              source= {{ uri: 'img/cove-at-atlantis-e1505801918589-1024x704.jpg' }}
+              source= {{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Atlantis_Resort_framed_by_flowers.jpg/1280px-Atlantis_Resort_framed_by_flowers.jpg' }}
               style={styles.image}>
               <View style={styles.header}>
-                <Text style={{fontSize: 29, fontWeight:'500'}}>Atlantis Tours</Text>
+                <Text style={{color: 'white', fontSize: 50, fontWeight:'700'}}>Atlantis Tours</Text>
               </View>
               <View style={styles.social}>
                 <SocialIcon
